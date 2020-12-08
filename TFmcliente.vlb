@@ -1,0 +1,10 @@
+﻿[Layout1]
+Coordinates=100,10,60,36
+
+[StringGrid1]
+Coordinates=10,10,80,58
+Visible=True
+
+[]
+Coordinates=99,1,91,36
+

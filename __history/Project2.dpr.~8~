@@ -1,0 +1,16 @@
+program Project2;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Unit2 in 'Unit2.pas' {FmPrincipal},
+  TFmcliente in 'TFmcliente.pas' {FmCliente},
+  cadCliente in 'cadCliente.pas' {Form2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFmPrincipal, FmPrincipal);
+  Application.Run;
+end.

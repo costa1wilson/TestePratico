@@ -1,0 +1,73 @@
+
+
+-- -----------------------------------------------------
+-- Table CLIENTE
+-- -----------------------------------------------------
+CREATE TABLE CLIENTE(
+  codCliente INT NOT NULL,
+  nome VARCHAR2(45) NOT NULL,
+  cpf VARCHAR2(11) NOT NULL,
+  status INT NOT NULL,
+  dataNascimento DATE NOT NULL,
+constraint PK_codCliente  PRIMARY KEY (codCliente),
+constraint UN_cpf UNIQUE(cpf)
+);
+
+
+
+-- -----------------------------------------------------
+-- Table FORNECEDOR
+-- -----------------------------------------------------
+CREATE TABLE FORNECEDOR (
+  codFornecedor INT NOT NULL,
+  nomeFantasia VARCHAR2(45) NOT NULL,
+  razaoSocial VARCHAR2(45) NOT NULL,
+  cnpj VARCHAR2(14) NOT NULL,
+  status int NOT NULL,
+ constraint PK_codFornecedor PRIMARY KEY (codFornecedor),
+  constraint UN_cnpj UNIQUE(cnpj ) );
+
+
+
+-- -----------------------------------------------------
+-- Table PRODUTO
+-- -----------------------------------------------------
+CREATE TABLE PRODUTO (
+  codProduto INT NOT NULL,
+  descricao VARCHAR2(255) NOT NULL,
+  precoUnitario DECIMAL(5,2) NOT NULL,
+  status int NOT NULL,
+  FORNECEDOR_codFornecedor INT NOT NULL,
+ constraint PK_codProduto PRIMARY KEY (codProduto),
+  CONSTRAINT fk_PRODUTO_FORNECEDOR
+    FOREIGN KEY (FORNECEDOR_codFornecedor)
+    REFERENCES FORNECEDOR (codFornecedor));
+
+
+-- -----------------------------------------------------
+-- Table VENDA
+-- -----------------------------------------------------
+CREATE TABLE VENDA (
+  codVenda INT NOT NULL,
+  dataHora DATE NOT NULL,
+  hora TIMESTAMP NOT NULL,
+  status int NOT NULL,
+  valor DECIMAL(5,2) NOT NULL,
+  CLIENTE_codCliente INT NOT NULL,
+  PRODUTO_codProduto INT NOT NULL,
+ constraint PK_codVenda PRIMARY KEY (codVenda),
+  CONSTRAINT fk_Venda_CLIENTE1
+    FOREIGN KEY (CLIENTE_codCliente)
+    REFERENCES CLIENTE (codCliente),
+  CONSTRAINT fk_Venda_PRODUTO1
+    FOREIGN KEY (PRODUTO_codProduto)
+    REFERENCES PRODUTO (codProduto))
+
+
+
+
+
+
+
+
+

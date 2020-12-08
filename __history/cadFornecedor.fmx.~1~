@@ -1,0 +1,119 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 528
+  ClientWidth = 699
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF0C615C
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.366025388240814200
+  Fill.Gradient.StopPosition.X = 0.633974611759185800
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Color = claNull
+    Position.X = 104.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 539.000000000000000000
+    Size.Height = 417.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 296.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 296.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 304.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object ComboBox1: TComboBox
+    Position.X = 304.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Position.X = 496.000000000000000000
+    Position.Y = 424.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Salvar'
+  end
+  object Label1: TLabel
+    StyledSettings = []
+    Position.X = 192.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Verdana'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    Text = 'Cadastrar Fornecedor'
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Position.X = 296.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Nome Fantasia:'
+    TabOrder = 7
+  end
+  object Label3: TLabel
+    Position.X = 296.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Raz'#227'o Social:'
+    TabOrder = 8
+  end
+  object Label4: TLabel
+    Position.X = 304.000000000000000000
+    Position.Y = 256.000000000000000000
+    Text = 'CNPJ:'
+    TabOrder = 9
+  end
+  object Label5: TLabel
+    Position.X = 304.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Status:'
+    TabOrder = 10
+  end
+end

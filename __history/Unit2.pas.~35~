@@ -1,0 +1,56 @@
+unit Unit2;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts, FMX.Ani,
+  FMX.TabControl, FMX.MultiView;
+
+type
+  TFmPrincipal = class(TForm)
+    GradientAnimation1: TGradientAnimation;
+    Layout2: TLayout;
+    Layout3: TLayout;
+    Circle1: TCircle;
+    ScrollBox1: TScrollBox;
+    MultiView1: TMultiView;
+    StyleBook1: TStyleBook;
+    Rectangle1: TRectangle;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    SpdCliente: TSpeedButton;
+    sp_home: TSpeedButton;
+    TabControl1: TTabControl;
+    Loja: TTabItem;
+    Layout1: TLayout;
+    procedure SpdClienteClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FmPrincipal: TFmPrincipal;
+
+implementation
+
+{$R *.fmx}
+
+uses TFmCliente, cadCliente;
+
+procedure TFmPrincipal.SpdClienteClick(Sender: TObject);
+var cliente : TForm2;
+begin
+
+       if TForm2 = nil then
+
+ cliente := TForm2.create(Application);
+  cliente.show;
+
+end;
+
+end.

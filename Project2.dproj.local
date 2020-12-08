@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/05 10:57:54.000.472,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/12/06 21:22:14.000.273,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/12/06 21:23:01.000.262,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit2.fmx</Transaction>
+    <Transaction>2020/12/06 21:23:01.000.262,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit2.pas</Transaction>
+    <Transaction>2020/12/06 21:23:06.000.241,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Project2.dproj</Transaction>
+    <Transaction>2020/12/07 10:20:36.000.158,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas</Transaction>
+    <Transaction>2020/12/07 11:07:41.000.455,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cliente.fmx</Transaction>
+    <Transaction>2020/12/07 11:07:41.000.455,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cliente.pas</Transaction>
+    <Transaction>2020/12/07 11:48:45.000.459,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cliente.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\TFmcliente.pas</Transaction>
+    <Transaction>2020/12/07 11:48:45.000.459,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cliente.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\TFmcliente.fmx</Transaction>
+    <Transaction>2020/12/07 12:08:59.000.141,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cadCliente.pas</Transaction>
+    <Transaction>2020/12/08 09:57:56.000.706,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas</Transaction>
+    <Transaction>2020/12/08 10:00:01.000.966,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas</Transaction>
+    <Transaction>2020/12/08 10:00:37.000.750,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cadProduto.fmx</Transaction>
+    <Transaction>2020/12/08 10:00:37.000.750,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cadProduto.pas</Transaction>
+    <Transaction>2020/12/08 10:29:04.000.100,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit2.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Principal.pas</Transaction>
+    <Transaction>2020/12/08 10:29:04.000.100,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit2.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Principal.fmx</Transaction>
+    <Transaction>2020/12/08 10:30:26.000.954,=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas</Transaction>
+    <Transaction>2020/12/08 10:31:22.000.374,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.pas=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cadFornecedor.pas</Transaction>
+    <Transaction>2020/12/08 10:31:22.000.374,C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\Unit1.fmx=C:\Users\wilso\OneDrive\Documentos\Embarcadero\Studio\Projects\simusTeste\cadFornecedor.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
