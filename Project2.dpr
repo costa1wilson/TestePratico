@@ -7,12 +7,14 @@ uses
   TFmcliente in 'TFmcliente.pas' {FmCliente},
   cadCliente in 'cadCliente.pas' {Form2},
   cadProduto in 'cadProduto.pas' {ProdutoCad},
-  cadFornecedor in 'cadFornecedor.pas' {Form1};
+  cadFornecedor in 'cadFornecedor.pas' {TFornecedor},
+  DbControle in 'DbControle.pas' {DataModule1: TDataModule};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TFmPrincipal, FmPrincipal);
+  Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.

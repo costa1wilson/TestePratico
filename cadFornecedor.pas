@@ -8,7 +8,7 @@ uses
   FMX.ListBox, FMX.Controls.Presentation, FMX.Edit, FMX.Objects;
 
 type
-   TFornecedor = class(TForm)
+   TTFornecedor = class(TForm)
     Rectangle1: TRectangle;
     Edit1: TEdit;
     Edit2: TEdit;
@@ -27,7 +27,7 @@ type
   end;
 
 var
-  Fornecedorcad: TFornecedor;
+  TFornecedor: TTFornecedor;
 
 implementation
 

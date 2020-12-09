@@ -37,7 +37,7 @@ type
 var
   FmPrincipal: TFmPrincipal;
 
- tabSheet : TTabItem;
+
 
 implementation
 
@@ -58,9 +58,9 @@ begin
 
 procedure TFmPrincipal.SpeedButton4Click(Sender: TObject);
 begin
-     if (Fornecedorcad = nil) then
- Fornecedorcad := TFornecedor.create(Application);
-  Fornecedorcad.show;
+     if (TFornecedor = nil) then
+ TFornecedor := TTFornecedor.create(Application);
+  TFornecedor.show;
 end;
 
 end.
